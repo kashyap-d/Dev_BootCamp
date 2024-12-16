@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="counter.css">
+  <title> </title>
+</head>
+<body>
+  <div class="unit">
+    <h1>People entered:</h1>
+    <h2 id="numb">0</h2>
+    <div style="
+    display: grid; grid-template-columns: 200px 200px 200px;
+    margin-left: 29%;
+    ">
+      <button class="inc-button" onclick="inc()">INCREMENT</button>
+      <button class="reset-button" onclick="reset()">RESET</button>
+      <button class="save-button" onclick="save()">SAVE</button>
+    </div>
+    <p style="font-weight: 600;" id="save-el">Previous entries: </p>
+  </div>
+
+  <script src="counter.js"></script>
+</body>
+<!-- <body>
+  <h1 style="
+    align-content: center;
+    ">
+    counter app
+  </h1>
+
+</body> -->
+</html>

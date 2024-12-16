@@ -1,0 +1,61 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    border-radius: 4px;
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 32px 9px 32px;
+    cursor: pointer;
+    margin: 2px;
+    transition: background-color,0.15s;
+}
+
+.inc-button{
+    background-color: darkred;
+}
+
+.inc-button:hover{
+    background-color: rgb(120, 0, 0);
+}
+
+.inc-button:active{
+    opacity: 0.5;
+}
+
+.reset-button{
+    background-color: green;
+}
+
+.reset-button:hover{
+    background-color: rgb(0, 110, 0);
+}
+
+.reset-button:active{
+    opacity: 0.5;
+}
+
+.save-button{
+    background-color: skyblue;
+}
+
+.save-button:hover{
+    background-color: rgb(120, 184, 209);
+}
+
+.save-button:active{
+    opacity: 0.5;
+}
+
+.unit{
+    padding-top: 200px;
+    text-align: center;
+}
+
+body{
+    background-image: url(../introduction\ html\ css/images/cat.jpg);
+}
